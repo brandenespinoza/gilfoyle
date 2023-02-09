@@ -63,7 +63,7 @@ def main():
                     play_music(1.0)
                     print(f"{timestamp}: A New 24hr High!!! Current price of bitcoin is ${current_price}.")
                 else:
-                    print(f"{timestamp}: Current price of bitcoin is ${current_price}.")
+                    print(f"{timestamp}: Current price of bitcoin is ${current_price} compared to the 24hr High of ${recent_high_price}.")
                 time.sleep(60) 
         else:
             print("Invalid selection. Please try again.")
