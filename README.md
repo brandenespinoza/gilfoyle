@@ -8,16 +8,17 @@ A python script that recreates Silicon Valley's Gilfoyle Bitcoin Alert as seen h
 2. Install the following python modules
   * requests
   * subprocess
-2. Download script and mp3 file to the same directory.
-3. In Terminal, navigate to script directory.
-4. Run script using <code>$ python3 gilfoyle.py</code>
-5. Select Mode
+3. Download script and mp3 file to the same directory.
+4. In Terminal, navigate to script directory.
+5. Run script using <code>$ python3 gilfoyle.py</code>
+6. Select Mode
 
 ### GILFOYLE MODE
-1. Select 1, press Enter.
-2. Key the threshold price that should trigger the alert
-3. Press Enter
+1. Key "1".
+2. Press **Enter**.
+3. Key the threshold price that should trigger the alert.
+4. Press **Enter**.
 
 ### HIGHER HIGHS MODE
-1. Select 2
-2. Press enter.
+1. Key "2".
+2. Press **Enter**.
