@@ -1,7 +1,7 @@
 # gilfoyle
 A python script that recreates Silicon Valley's Gilfoyle Bitcoin Alert as seen here: 
 
-[![](https://markdown-videos.deta.dev/youtube/v=t_L0UPmxgho)](https://www.youtube.com/watch?v=t_L0UPmxgho)
+[![](https://markdown-videos.deta.dev/youtube/v=uS1KcjkWdoU)](https://www.youtube.com/watch?v=uS1KcjkWdoU)
 
 ## Instructions
 1. Install python3.
