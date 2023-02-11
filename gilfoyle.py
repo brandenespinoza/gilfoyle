@@ -34,6 +34,7 @@ def main():
         if choice == '1':
             print("You have selected GILFOYLE MINING MODE. You will be alerted when you should toggle your mining rig on or off.")
             target_price = int(input("Enter BTC Target Price: $"))
+            polling_frequency = int(input("Enter the Polling Frequency (Seconds): "))
             current_price = get_price()
             countdown = "5...4...3...2...1...\n"
             for l in countdown:
@@ -51,20 +52,21 @@ def main():
                 elif current_price < target_price and last_price >= target_price:
                     play_music2(1.0)
                     print(f"Bitcoin just fell below your price target.  Time to toggle off your miners.")
-                time.sleep(60)
+                time.sleep(polling_frequency)
         elif choice == '2':
             recent_high_price = get_recent_high_price()
             print(f"You have selected HIGHER HIGHS. This will play an alert any time the current Bitcoin price breaks above the 24hr high of ${recent_high_price}.")
+            polling_frequency = int(input("Enter the Polling Frequency (Seconds): "))
             while True:
                 current_price = get_price()
                 recent_high_price = get_recent_high_price()
                 timestamp = datetime.datetime.now().strftime("%m-%d-%Y %H:%M:%S")
                 if current_price > recent_high_price:
-                    play_music(1.0)
+                    play_music1(1.0)
                     print(f"{timestamp}: A New 24hr High!!! Current price of bitcoin is ${current_price}.")
                 else:
                     print(f"{timestamp}: Current price of bitcoin is ${current_price} compared to the 24hr High of ${recent_high_price}.")
-                time.sleep(60) 
+                time.sleep(polling_frequency)
         else:
             print("Invalid selection. Please try again.")
 if __name__ == "__main__":
