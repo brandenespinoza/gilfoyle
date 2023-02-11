@@ -13,12 +13,22 @@ A python script that recreates Silicon Valley's Gilfoyle Bitcoin Alert as seen h
 5. Run script using <code>$ python3 gilfoyle.py</code>
 6. Select Mode
 
-### GILFOYLE MODE
+### GILFOYLE MODE[^1] 
 1. Key "1".
 2. Press **Enter**.
 3. Key the threshold price that should trigger the alert.
 4. Press **Enter**.
+5. Key the desired polling frequency in seconds.
+6. Press **Enter**.
 
-### HIGHER HIGHS MODE
+### JERRY GARCIA MODE[^2] 
+
 1. Key "2".
 2. Press **Enter**.
+5. Key the desired polling frequency in seconds.
+6. Press **Enter**.
+
+<hr>
+
+[^1]GILFOYLE MODE = Bitcoin Price Alert<br/>
+[^2]JERRY GARCIA MODE = Higher Highs

@@ -29,18 +29,18 @@ def main():
     while True:
         print("Select a mode:")
         print("1. GILFOYLE MODE")
-        print("2. HIGHER HIGHS MODE")
+        print("2. JERRY GARCIA MODE")
         choice=input("Enter your selection (1 or 2): ").lower()
         if choice == '1':
-            print("You have selected GILFOYLE MINING MODE. You will be alerted when you should toggle your mining rig on or off.")
+            print("----- STARTING GILFOYLE MINING MODE -----")
             target_price = int(input("Enter BTC Target Price: $"))
             polling_frequency = int(input("Enter the Polling Frequency (Seconds): "))
             current_price = get_price()
-            countdown = "5...4...3...2...1...\n"
+            countdown = "Loading Data...\n"
             for l in countdown:
                 sys.stdout.write(l)
                 sys.stdout.flush()
-                time.sleep(.25)
+                time.sleep(.331)
             while True:
                 last_price = current_price 
                 current_price = get_price()
@@ -55,7 +55,7 @@ def main():
                 time.sleep(polling_frequency)
         elif choice == '2':
             recent_high_price = get_recent_high_price()
-            print(f"You have selected HIGHER HIGHS. This will play an alert any time the current Bitcoin price breaks above the 24hr high of ${recent_high_price}.")
+            print("----- STARTING JERRY GARCIA MODE -----")
             polling_frequency = int(input("Enter the Polling Frequency (Seconds): "))
             while True:
                 current_price = get_price()
