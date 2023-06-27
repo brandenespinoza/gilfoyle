@@ -2,7 +2,7 @@
 
 A python script that recreates Silicon Valley's Gilfoyle Bitcoin Alert as seen here:
 
-[![](https://markdown-videos.deta.dev/youtube/v=uS1KcjkWdoU)](https://www.youtube.com/watch?v=uS1KcjkWdoU)
+https://github.com/brandenespinoza/gilfoyle/assets/53885863/e6ed4db1-cd3b-4125-ad43-d9664c0a2498
 
 ## Instructions
 
