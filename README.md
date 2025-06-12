@@ -29,8 +29,8 @@ https://github.com/brandenespinoza/gilfoyle/assets/53885863/e6ed4db1-cd3b-4125-a
 
 1. Key "2".
 2. Press **Enter**.
-5. Key the desired polling frequency in seconds.
-6. Press **Enter**.
+3. Key the desired polling frequency in seconds.
+4. Press **Enter**.
 
 <hr>
 
