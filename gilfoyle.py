@@ -8,9 +8,9 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 def get_price():
-    url = "https://data.binance.com/api/v3/ticker?symbol=BTCUSDT"
+    url = "https://data.binance.com/api/v3/ticker/price?symbol=BTCUSDT"
     response = requests.get(url, verify=False)
-    current_price = response.json()["lastPrice"]
+    current_price = response.json()["price"]
     return int(float(current_price))
 
 def get_recent_high_price():
